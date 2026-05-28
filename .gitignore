@@ -1,0 +1,57 @@
+# 数据
+data/
+
+# 论文源文件
+paper/
+
+# 实验日志
+logs/
+experiments/seed789_result.txt
+experiments/seed_aggregate_results.txt
+experiments/seed_train_gpu1.log
+experiments/seed_train_gpu2.log
+experiments/seed_train_gpu3.log
+experiments/seed_training_full.log
+experiments/test_results.csv
+train_main_gpu0.log
+train_main_gpu1.log
+train_main_gpu2.log
+train_main_gpu3.log
+train_v2_gpu1.log
+train_v2_gpu2.log
+train_v2_gpu3.log
+
+# 不保留的根目录脚本
+train_seeded.py
+train_main_seeded.py
+run_cost_batch.py
+run_sensitivity_and_cost.py
+compare_regimes.py
+eval_seeds.py
+
+# 不保留的checkpoints
+experiments/checkpoints/seed42_K4_d64_L20_T64/
+experiments/checkpoints/seed123_K4_d64_L20_T64/
+experiments/checkpoints/seed456_K4_d64_L20_T64/
+experiments/checkpoints/seed789_K4_d64_L20_T64/
+experiments/checkpoints/seed2024_K4_d64_L20_T64/
+experiments/checkpoints/seed42_K4_T64_v2/
+experiments/checkpoints/seed123_K4_T64_v2/
+experiments/checkpoints/seed456_K4_T64_v2/
+experiments/checkpoints/seed789_K4_T64_v2/
+experiments/checkpoints/seed2024_K4_T64_v2/
+
+# Python缓存
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Claude和IDE
+.claude/
+.vscode/
+
+# 其他
+package-lock.json
+CONTEXT.md
+PROJECT_DOCUMENTATION.md
+notebooks/
